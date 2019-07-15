@@ -1,0 +1,438 @@
+{
+    "tripadvisorList": [
+        {
+            "title": "Mian Fan",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d14067116-Reviews-Mian_Fan-Paris_Ile_de_France.html",
+                    "email": "conctact@mianfan.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "conctact@mianfan.fr?subject=?"
+        },
+        {
+            "title": "Mobilis in Mobili",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d9562343-Reviews-Mobilis_in_Mobili-Paris_Ile_de_France.html",
+                    "email": "samly@wanadoo.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "samly@wanadoo.fr?subject=?"
+        },
+        {
+            "title": "1. Il Etait Un Square",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d6575305-Reviews-Il_Etait_Un_Square-Paris_Ile_de_France.html"
+                },
+                "errors": [
+                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            }
+        },
+        {
+            "title": "2. Domenico&apos;s",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d14788731-Reviews-Domenico_s-Paris_Ile_de_France.html",
+                    "email": "domenicos75009@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "domenicos75009@gmail.com?subject=?"
+        },
+        {
+            "title": "3. Les Apotres de Pigalle",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d10514254-Reviews-Les_Apotres_de_Pigalle-Paris_Ile_de_France.html",
+                    "email": "lesapotresdepigalle@hotmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "lesapotresdepigalle@hotmail.com?subject=?"
+        },
+        {
+            "title": "4. La MiN",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d15318758-Reviews-La_MiN-Paris_Ile_de_France.html",
+                    "email": "Nathan-hillel@hotmail.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "Nathan-hillel@hotmail.fr?subject=?"
+        },
+        {
+            "title": "5. Epicure",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html",
+                    "email": "epicure@lebristolparis.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "epicure@lebristolparis.com?subject=?"
+        },
+        {
+            "title": "6. La Grange Aux Canards",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d12321040-Reviews-La_Grange_Aux_Canards-Paris_Ile_de_France.html",
+                    "email": "lagrangeauxcanards@gmail.com?subject=?"
+                },
+                "errors": [],
+                "facebook": {
+                    "email": "incubadoraitinerante@gmail.com?__xts__="
+                }
+            },
+            "email": "incubadoraitinerante@gmail.com?__xts__="
+        },
+        {
+            "title": "7. Boutary",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d9783452-Reviews-Boutary-Paris_Ile_de_France.html",
+                    "email": "restaurant@boutary.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "restaurant@boutary.com?subject=?"
+        },
+        {
+            "title": "8. Bateau le Calife",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d951228-Reviews-Bateau_le_Calife-Paris_Ile_de_France.html",
+                    "email": "info@calife.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "info@calife.com?subject=?"
+        },
+        {
+            "title": "9. Pur&apos; - Jean-Fran&#xE7;ois Rouquette",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d719852-Reviews-Pur_Jean_Francois_Rouquette-Paris_Ile_de_France.html",
+                    "email": "reservations.restaurants@hyatt.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "reservations.restaurants@hyatt.com?subject=?"
+        },
+        {
+            "title": "10. Chez Ajia",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13387881-Reviews-Chez_Ajia-Paris_Ile_de_France.html",
+                    "email": "chezajia@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "chezajia@gmail.com?subject=?"
+        },
+        {
+            "title": "11. Le Gabriel",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d7679533-Reviews-Le_Gabriel-Paris_Ile_de_France.html",
+                    "email": "restaurants@lareserve-paris.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "restaurants@lareserve-paris.com?subject=?"
+        },
+        {
+            "title": "12. Kei Restaurant",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d2105853-Reviews-Kei_Restaurant-Paris_Ile_de_France.html",
+                    "email": "reservationkei@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "reservationkei@gmail.com?subject=?"
+        },
+        {
+            "title": "13. Chez Cleopatre",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d6845364-Reviews-Chez_Cleopatre-Paris_Ile_de_France.html"
+                },
+                "errors": [
+                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            }
+        },
+        {
+            "title": "14. Via Emilia",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d10493759-Reviews-Via_Emilia-Paris_Ile_de_France.html"
+                },
+                "errors": [
+                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)"
+                ],
+                "facebook": {
+                    "email": "incubadoraitinerante@gmail.com?__xts__="
+                }
+            },
+            "email": "incubadoraitinerante@gmail.com?__xts__="
+        },
+        {
+            "title": "15. Terra Mia",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13135452-Reviews-Terra_Mia-Paris_Ile_de_France.html",
+                    "email": "pepenapoli@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "pepenapoli@gmail.com?subject=?"
+        },
+        {
+            "title": "16. Patchanka",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13542662-Reviews-Patchanka-Paris_Ile_de_France.html",
+                    "email": "patchanka.paris@gmail.com?subject=?"
+                },
+                "errors": [],
+                "facebook": {
+                    "email": "incubadoraitinerante@gmail.com?__xts__="
+                }
+            },
+            "email": "incubadoraitinerante@gmail.com?__xts__="
+        },
+        {
+            "title": "17. New Jawad Longchamp",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d4451589-Reviews-New_Jawad_Longchamp-Paris_Ile_de_France.html"
+                },
+                "errors": [
+                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            }
+        },
+        {
+            "title": "18. Signature Montmartre",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13307509-Reviews-Signature_Montmartre-Paris_Ile_de_France.html",
+                    "email": "contact@signature-montmartre.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "contact@signature-montmartre.fr?subject=?"
+        },
+        {
+            "title": "19. Wine Therapy",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13088156-Reviews-Wine_Therapy-Paris_Ile_de_France.html",
+                    "email": "winetherapy75009@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "winetherapy75009@gmail.com?subject=?"
+        },
+        {
+            "title": "20. Le 114 Faubourg",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html",
+                    "email": "114Faubourg@lebristolparis.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "114Faubourg@lebristolparis.com?subject=?"
+        },
+        {
+            "title": "21. Can Alegria Paris",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d14039269-Reviews-Can_Alegria_Paris-Paris_Ile_de_France.html",
+                    "email": "canalegriaparis@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "canalegriaparis@gmail.com?subject=?"
+        },
+        {
+            "title": "22. Le Cinq",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d699456-Reviews-Le_Cinq-Paris_Ile_de_France.html",
+                    "email": "lecinq.par@fourseasons.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "lecinq.par@fourseasons.com?subject=?"
+        },
+        {
+            "title": "23. Petit Boutary",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d14643721-Reviews-Petit_Boutary-Paris_Ile_de_France.html",
+                    "email": "contact@petitboutary.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "contact@petitboutary.com?subject=?"
+        },
+        {
+            "title": "24. Les Cr&#xEA;pes de Louis-Marie",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d9784431-Reviews-Les_Crepes_de_Louis_Marie-Paris_Ile_de_France.html",
+                    "email": "lescrepesdelouismarie@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "lescrepesdelouismarie@gmail.com?subject=?"
+        },
+        {
+            "title": "25. Restaurant OXTE",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d13424615-Reviews-Restaurant_OXTE-Paris_Ile_de_France.html",
+                    "email": "contact@restaurant-oxte.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "contact@restaurant-oxte.com?subject=?"
+        },
+        {
+            "title": "26. Flesh Restaurant Canal Saint Martin",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d11880054-Reviews-Flesh_Restaurant_Canal_Saint_Martin-Paris_Ile_de_France.html",
+                    "email": "DAVID_VIDAL@HOTMAIL.FR?subject=?"
+                },
+                "errors": [],
+                "facebook": {
+                    "email": "incubadoraitinerante@gmail.com"
+                }
+            },
+            "email": "incubadoraitinerante@gmail.com"
+        },
+        {
+            "title": "27. Pastamore",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d15042418-Reviews-Pastamore-Paris_Ile_de_France.html"
+                },
+                "errors": [
+                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            }
+        },
+        {
+            "title": "28. Hebe",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d15147797-Reviews-Hebe-Paris_Ile_de_France.html",
+                    "email": "reservation@heberestaurant.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "reservation@heberestaurant.com?subject=?"
+        },
+        {
+            "title": "29. La B&#xE9;cane &#xC0; Gaston",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d12099045-Reviews-La_Becane_A_Gaston-Paris_Ile_de_France.html",
+                    "email": "labecaneagaston@icloud.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "labecaneagaston@icloud.com?subject=?"
+        },
+        {
+            "title": "30. La Table d&apos;Hami",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187147-d9829800-Reviews-La_Table_d_Hami-Paris_Ile_de_France.html",
+                    "email": "info@la-table-hami.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                ]
+            },
+            "email": "info@la-table-hami.fr?subject=?"
+        }
+    ],
+    "totalEmails": 28,
+    "tripadvisorListPages": {
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa150-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa180-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa90-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa120-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa210-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa240-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa270-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa300-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa330-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa360-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa390-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa420-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa450-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g187147-oa480-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false
+    }
+}

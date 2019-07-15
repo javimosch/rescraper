@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "atob": "^2.1.2",
+        "cheerio": "^1.0.0-rc.3",
+        "dotenv": "^8.0.0",
+        "nodemon": "^1.19.1",
+        "promise-sequential": "^1.1.1",
+        "puppeteer": "^1.18.1",
+        "sander": "^0.6.0"
+    },
+    "scripts": {
+        "pages": "node scripts/paginate.js",
+        "start": "nodemon node index.js --ignore results.json --ignore tmp"
+    }
+}
