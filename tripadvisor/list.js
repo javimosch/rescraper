@@ -29,7 +29,7 @@ async function scrapeListPages(url = '') {
 
     await sander.writeFile(RESULT_PATH, JSON.stringify(json, null, 4))
 
-    const browser = await require('puppeteer').launch({ headless: process.env.HEADLESS === '0' ? false : true })
+    const browser = await require('puppeteer').launch(require('../config').puppeteer)
     const page = await browser.newPage()
     await page.goto(url)
     const bodyHandle = await page.$('body')
@@ -49,7 +49,7 @@ async function scrapeListPages(url = '') {
 }
 
 async function scrapeItems(list = [], options = {}) {
-    const browser = await puppeteer.launch({ headless: true })
+    const browser = await puppeteer.launch(require('../config').puppeteer)
     let html = ''
     const page = await browser.newPage()
     if (!options.url) {

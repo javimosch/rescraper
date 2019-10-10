@@ -9,7 +9,7 @@ async function scrapeItem(url, item = {}, options = {}) {
         // url ='https://www.tripadvisor.es/Restaurant_Review-g187147-d14971498-Reviews-Les_Loups_de_la_Butte-Paris_Ile_de_France.html'
     let sander = require('sander')
     const puppeteer = require('puppeteer')
-    const browser = await puppeteer.launch({ headless: true })
+    const browser = await puppeteer.launch(require('../config').puppeteer)
     const page = await browser.newPage()
         //if (options.debug) console.log('DETAILS goto url', url)
     await page.goto(url)

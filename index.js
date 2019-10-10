@@ -16,13 +16,14 @@ async function run() {
     }
 
     if (PROCESS_TRIPADVISOR_LIST) {
-
-        await sequential(result.tripadvisorListPages.map((url, index) => {
+        let pages = Object.keys(result.tripadvisorListPages)
+        await sequential(pages.map((url, index) => {
             return () => (async function() {
                 console.log('LIST', index)
                 result.tripadvisorList = await require('./tripadvisor/list').scrapeItems(result.tripadvisorList, {
                     url
                 })
+                result.tripadvisorListPages[pages] = true
                 saveResultFile(result);
             })()
         }))

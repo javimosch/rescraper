@@ -9,7 +9,7 @@ async function scrapeItem(url, item) {
     item.metadata = item.metadata || {}
     item.metadata.facebook = item.metadata.facebook || {}
     item.metadata.errors = item.metadata.errors || []
-    const browser = await puppeteer.launch({ headless: true })
+    const browser = await puppeteer.launch(require('../config').puppeteer)
     const page = await browser.newPage()
     await page.goto(url)
     const bodyHandle = await page.$('body')

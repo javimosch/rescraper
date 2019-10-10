@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  puppeteer:
+    restart: 'no'
+    build: ./
+    container_name: puppeteer
+    env_file: .env
+    entrypoint: 
+      - yarn
+      - start
+
+ 
