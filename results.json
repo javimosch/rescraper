@@ -1,438 +1,403 @@
 {
+    "totalEmails": 19,
+    "tripadvisorListPages": {
+        "https://www.tripadvisor.es/Restaurants-g187153-Montpellier_Herault_Occitanie.html": true,
+        "https://www.tripadvisor.es/Restaurants-g8309764-Chambery_Savoie_Auvergne_Rhone_Alpes.html": false,
+        "https://www.tripadvisor.fr/Restaurants-g8309764-oa30-Chambery_Savoie_Auvergne_Rhone_Alpes.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g8309764-oa60-Chambery_Savoie_Auvergne_Rhone_Alpes.html#EATERY_LIST_CONTENTS": false,
+        "https://www.tripadvisor.fr/Restaurants-g8309764-oa90-Chambery_Savoie_Auvergne_Rhone_Alpes.html#EATERY_LIST_CONTENTS": false
+    },
     "tripadvisorList": [
         {
-            "title": "Mian Fan",
+            "title": "Bombay",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d14067116-Reviews-Mian_Fan-Paris_Ile_de_France.html",
-                    "email": "conctact@mianfan.fr?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g187153-d1324421-Reviews-Bombay-Montpellier_Herault_Occitanie.html"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "conctact@mianfan.fr?subject=?"
-        },
-        {
-            "title": "Mobilis in Mobili",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d9562343-Reviews-Mobilis_in_Mobili-Paris_Ile_de_France.html",
-                    "email": "samly@wanadoo.fr?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "samly@wanadoo.fr?subject=?"
-        },
-        {
-            "title": "1. Il Etait Un Square",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d6575305-Reviews-Il_Etait_Un_Square-Paris_Ile_de_France.html"
-                },
-                "errors": [
-                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             }
         },
         {
-            "title": "2. Domenico&apos;s",
+            "title": "1. Le Pat&apos;Daniel&apos;s",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d14788731-Reviews-Domenico_s-Paris_Ile_de_France.html",
-                    "email": "domenicos75009@gmail.com?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g187153-d8036149-Reviews-Le_Pat_Daniel_s-Montpellier_Herault_Occitanie.html",
+                    "email": "lepatdaniels@gmail.com?subject=?"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             },
-            "email": "domenicos75009@gmail.com?subject=?"
+            "email": "lepatdaniels@gmail.com?subject=?"
         },
         {
-            "title": "3. Les Apotres de Pigalle",
+            "title": "2. Les t&apos;OCques",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d10514254-Reviews-Les_Apotres_de_Pigalle-Paris_Ile_de_France.html",
-                    "email": "lesapotresdepigalle@hotmail.com?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g187153-d10463996-Reviews-Les_t_OCques-Montpellier_Herault_Occitanie.html"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "lesapotresdepigalle@hotmail.com?subject=?"
-        },
-        {
-            "title": "4. La MiN",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d15318758-Reviews-La_MiN-Paris_Ile_de_France.html",
-                    "email": "Nathan-hillel@hotmail.fr?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "Nathan-hillel@hotmail.fr?subject=?"
-        },
-        {
-            "title": "5. Epicure",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html",
-                    "email": "epicure@lebristolparis.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "epicure@lebristolparis.com?subject=?"
-        },
-        {
-            "title": "6. La Grange Aux Canards",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d12321040-Reviews-La_Grange_Aux_Canards-Paris_Ile_de_France.html",
-                    "email": "lagrangeauxcanards@gmail.com?subject=?"
-                },
-                "errors": [],
-                "facebook": {
-                    "email": "incubadoraitinerante@gmail.com?__xts__="
-                }
-            },
-            "email": "incubadoraitinerante@gmail.com?__xts__="
-        },
-        {
-            "title": "7. Boutary",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d9783452-Reviews-Boutary-Paris_Ile_de_France.html",
-                    "email": "restaurant@boutary.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "restaurant@boutary.com?subject=?"
-        },
-        {
-            "title": "8. Bateau le Calife",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d951228-Reviews-Bateau_le_Calife-Paris_Ile_de_France.html",
-                    "email": "info@calife.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "info@calife.com?subject=?"
-        },
-        {
-            "title": "9. Pur&apos; - Jean-Fran&#xE7;ois Rouquette",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d719852-Reviews-Pur_Jean_Francois_Rouquette-Paris_Ile_de_France.html",
-                    "email": "reservations.restaurants@hyatt.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "reservations.restaurants@hyatt.com?subject=?"
-        },
-        {
-            "title": "10. Chez Ajia",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13387881-Reviews-Chez_Ajia-Paris_Ile_de_France.html",
-                    "email": "chezajia@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "chezajia@gmail.com?subject=?"
-        },
-        {
-            "title": "11. Le Gabriel",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d7679533-Reviews-Le_Gabriel-Paris_Ile_de_France.html",
-                    "email": "restaurants@lareserve-paris.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "restaurants@lareserve-paris.com?subject=?"
-        },
-        {
-            "title": "12. Kei Restaurant",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d2105853-Reviews-Kei_Restaurant-Paris_Ile_de_France.html",
-                    "email": "reservationkei@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "reservationkei@gmail.com?subject=?"
-        },
-        {
-            "title": "13. Chez Cleopatre",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d6845364-Reviews-Chez_Cleopatre-Paris_Ile_de_France.html"
-                },
-                "errors": [
-                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             }
         },
         {
-            "title": "14. Via Emilia",
+            "title": "3. Le Petit Bistrot",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d10493759-Reviews-Via_Emilia-Paris_Ile_de_France.html"
+                    "detailsUrl": "/Restaurant_Review-g187153-d4462780-Reviews-Le_Petit_Bistrot-Montpellier_Herault_Occitanie.html"
                 },
                 "errors": [
-                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)"
-                ],
-                "facebook": {
-                    "email": "incubadoraitinerante@gmail.com?__xts__="
-                }
-            },
-            "email": "incubadoraitinerante@gmail.com?__xts__="
-        },
-        {
-            "title": "15. Terra Mia",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13135452-Reviews-Terra_Mia-Paris_Ile_de_France.html",
-                    "email": "pepenapoli@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "pepenapoli@gmail.com?subject=?"
-        },
-        {
-            "title": "16. Patchanka",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13542662-Reviews-Patchanka-Paris_Ile_de_France.html",
-                    "email": "patchanka.paris@gmail.com?subject=?"
-                },
-                "errors": [],
-                "facebook": {
-                    "email": "incubadoraitinerante@gmail.com?__xts__="
-                }
-            },
-            "email": "incubadoraitinerante@gmail.com?__xts__="
-        },
-        {
-            "title": "17. New Jawad Longchamp",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d4451589-Reviews-New_Jawad_Longchamp-Paris_Ile_de_France.html"
-                },
-                "errors": [
-                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             }
         },
         {
-            "title": "18. Signature Montmartre",
+            "title": "4. Renaldo",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13307509-Reviews-Signature_Montmartre-Paris_Ile_de_France.html",
-                    "email": "contact@signature-montmartre.fr?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g196606-d15574688-Reviews-Renaldo-Lattes_Montpellier_Herault_Occitanie.html"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "contact@signature-montmartre.fr?subject=?"
-        },
-        {
-            "title": "19. Wine Therapy",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13088156-Reviews-Wine_Therapy-Paris_Ile_de_France.html",
-                    "email": "winetherapy75009@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "winetherapy75009@gmail.com?subject=?"
-        },
-        {
-            "title": "20. Le 114 Faubourg",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html",
-                    "email": "114Faubourg@lebristolparis.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "114Faubourg@lebristolparis.com?subject=?"
-        },
-        {
-            "title": "21. Can Alegria Paris",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d14039269-Reviews-Can_Alegria_Paris-Paris_Ile_de_France.html",
-                    "email": "canalegriaparis@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "canalegriaparis@gmail.com?subject=?"
-        },
-        {
-            "title": "22. Le Cinq",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d699456-Reviews-Le_Cinq-Paris_Ile_de_France.html",
-                    "email": "lecinq.par@fourseasons.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "lecinq.par@fourseasons.com?subject=?"
-        },
-        {
-            "title": "23. Petit Boutary",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d14643721-Reviews-Petit_Boutary-Paris_Ile_de_France.html",
-                    "email": "contact@petitboutary.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "contact@petitboutary.com?subject=?"
-        },
-        {
-            "title": "24. Les Cr&#xEA;pes de Louis-Marie",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d9784431-Reviews-Les_Crepes_de_Louis_Marie-Paris_Ile_de_France.html",
-                    "email": "lescrepesdelouismarie@gmail.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "lescrepesdelouismarie@gmail.com?subject=?"
-        },
-        {
-            "title": "25. Restaurant OXTE",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d13424615-Reviews-Restaurant_OXTE-Paris_Ile_de_France.html",
-                    "email": "contact@restaurant-oxte.com?subject=?"
-                },
-                "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
-                ]
-            },
-            "email": "contact@restaurant-oxte.com?subject=?"
-        },
-        {
-            "title": "26. Flesh Restaurant Canal Saint Martin",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d11880054-Reviews-Flesh_Restaurant_Canal_Saint_Martin-Paris_Ile_de_France.html",
-                    "email": "DAVID_VIDAL@HOTMAIL.FR?subject=?"
-                },
-                "errors": [],
-                "facebook": {
-                    "email": "incubadoraitinerante@gmail.com"
-                }
-            },
-            "email": "incubadoraitinerante@gmail.com"
-        },
-        {
-            "title": "27. Pastamore",
-            "metadata": {
-                "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d15042418-Reviews-Pastamore-Paris_Ile_de_France.html"
-                },
-                "errors": [
-                    "TypeError: Cannot read property 'split' of undefined\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:27:13)",
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             }
         },
         {
-            "title": "28. Hebe",
+            "title": "5. Le Lab",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d15147797-Reviews-Hebe-Paris_Ile_de_France.html",
-                    "email": "reservation@heberestaurant.com?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g187153-d12388234-Reviews-Le_Lab-Montpellier_Herault_Occitanie.html",
+                    "email": "lelabrestaurant@gmail.com?subject=?"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             },
-            "email": "reservation@heberestaurant.com?subject=?"
+            "email": "lelabrestaurant@gmail.com?subject=?"
         },
         {
-            "title": "29. La B&#xE9;cane &#xC0; Gaston",
+            "title": "6. L&apos;Aurelia",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d12099045-Reviews-La_Becane_A_Gaston-Paris_Ile_de_France.html",
-                    "email": "labecaneagaston@icloud.com?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g187153-d10478094-Reviews-L_Aurelia-Montpellier_Herault_Occitanie.html"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
-            },
-            "email": "labecaneagaston@icloud.com?subject=?"
+            }
         },
         {
-            "title": "30. La Table d&apos;Hami",
+            "title": "7. Couleurs D&apos;Ici",
             "metadata": {
                 "tripadvisor": {
-                    "detailsUrl": "/Restaurant_Review-g187147-d9829800-Reviews-La_Table_d_Hami-Paris_Ile_de_France.html",
-                    "email": "info@la-table-hami.fr?subject=?"
+                    "detailsUrl": "/Restaurant_Review-g1842241-d3655876-Reviews-Couleurs_D_Ici-Laverune_Montpellier_Herault_Occitanie.html",
+                    "email": "contact@couleursdici-restaurant.com?subject=?"
                 },
                 "errors": [
-                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:62:19)\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/trip"
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
                 ]
             },
-            "email": "info@la-table-hami.fr?subject=?"
+            "email": "contact@couleursdici-restaurant.com?subject=?"
+        },
+        {
+            "title": "8. L&apos;escale Regale",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d9805220-Reviews-L_escale_Regale-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "9. Che Boludo Empanadas Argentinas",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d10347412-Reviews-Che_Boludo_Empanadas_Argentinas-Montpellier_Herault_Occitanie.html",
+                    "email": "hola@cheboludoempanadas.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "hola@cheboludoempanadas.fr?subject=?"
+        },
+        {
+            "title": "10. Map Map",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d14023630-Reviews-Map_Map-Montpellier_Herault_Occitanie.html",
+                    "email": "Mapmap.food@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "Mapmap.food@gmail.com?subject=?"
+        },
+        {
+            "title": "11. La Fantasia des D&#xE9;lices",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g641864-d3822579-Reviews-La_Fantasia_des_Delices-Castelnau_le_Lez_Montpellier_Herault_Occitanie.html",
+                    "email": "contact@lafantasiadesdelices.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "contact@lafantasiadesdelices.com?subject=?"
+        },
+        {
+            "title": "12. Atelier st Roch",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d12959002-Reviews-Atelier_st_Roch-Montpellier_Herault_Occitanie.html",
+                    "email": "atelierstroch34@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "atelierstroch34@gmail.com?subject=?"
+        },
+        {
+            "title": "13. Papagros",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d13116277-Reviews-Papagros-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "14. Grand Slam Burger",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d6207000-Reviews-Grand_Slam_Burger-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "15. R&#xEA;ve du Chef",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g641864-d10874800-Reviews-Reve_du_Chef-Castelnau_le_Lez_Montpellier_Herault_Occitanie.html",
+                    "email": "chef.gramajo@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "chef.gramajo@gmail.com?subject=?"
+        },
+        {
+            "title": "16. Le Couperet Restaurant",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d12838867-Reviews-Le_Couperet_Restaurant-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "17. Balthazar Cafe Restaurant",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d12087111-Reviews-Balthazar_Cafe_Restaurant-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "18. Leclere Cuisine D&apos;Arrivage",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d7932738-Reviews-Leclere_Cuisine_D_Arrivage-Montpellier_Herault_Occitanie.html",
+                    "email": "arrivage@restaurantleclere.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "arrivage@restaurantleclere.com?subject=?"
+        },
+        {
+            "title": "19. Pizzart",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d10041505-Reviews-Pizzart-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "20. Young Min Grill",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g641864-d13847463-Reviews-Young_Min_Grill-Castelnau_le_Lez_Montpellier_Herault_Occitanie.html",
+                    "email": "contact@youngmingrill.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "contact@youngmingrill.fr?subject=?"
+        },
+        {
+            "title": "21. Les Casseroles en folie",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d6889919-Reviews-Les_Casseroles_en_folie-Montpellier_Herault_Occitanie.html",
+                    "email": "casserolesenfolie@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "casserolesenfolie@gmail.com?subject=?"
+        },
+        {
+            "title": "22. Umami la cinquieme saveur",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d12690726-Reviews-Umami_la_cinquieme_saveur-Montpellier_Herault_Occitanie.html",
+                    "email": "contact@umami-cinquiemesaveur.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "contact@umami-cinquiemesaveur.com?subject=?"
+        },
+        {
+            "title": "23. Casa Cubana",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d13994962-Reviews-Casa_Cubana-Montpellier_Herault_Occitanie.html"
+                },
+                "errors": [
+                    "Error: TRIPADVISOR_NO_EMAIL_DETECTED\n    at Object.scrapeItem (/home/cimeteret/Public/rescraper/tripadvisor/details.js:33:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            }
+        },
+        {
+            "title": "24. Matt&apos; Burger",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d7343138-Reviews-Matt_Burger-Montpellier_Herault_Occitanie.html",
+                    "email": "hotelspago@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "hotelspago@gmail.com?subject=?"
+        },
+        {
+            "title": "25. Les Bistronomes",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d3479618-Reviews-Les_Bistronomes-Montpellier_Herault_Occitanie.html",
+                    "email": "yannguillaumin@yahoo.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "yannguillaumin@yahoo.fr?subject=?"
+        },
+        {
+            "title": "26. Empanadas Club",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d6902409-Reviews-Empanadas_Club-Montpellier_Herault_Occitanie.html",
+                    "email": "hola@empanadasclub.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "hola@empanadasclub.com?subject=?"
+        },
+        {
+            "title": "27. Au Mazet de Grand Meme",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g641864-d7248021-Reviews-Au_Mazet_de_Grand_Meme-Castelnau_le_Lez_Montpellier_Herault_Occitanie.html",
+                    "email": "francknoury34@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "francknoury34@gmail.com?subject=?"
+        },
+        {
+            "title": "28. Le Bistro Urbain",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d5796807-Reviews-Le_Bistro_Urbain-Montpellier_Herault_Occitanie.html",
+                    "email": "lebistrourbain@gmail.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "lebistrourbain@gmail.com?subject=?"
+        },
+        {
+            "title": "29. Gasoline Wine &amp; Burger",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d5800402-Reviews-Gasoline_Wine_Burger-Montpellier_Herault_Occitanie.html",
+                    "email": "contact@gasolineburger.com?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "contact@gasolineburger.com?subject=?"
+        },
+        {
+            "title": "30. Pastis Restaurant",
+            "metadata": {
+                "tripadvisor": {
+                    "detailsUrl": "/Restaurant_Review-g187153-d983253-Reviews-Pastis_Restaurant-Montpellier_Herault_Occitanie.html",
+                    "email": "contact@le-pastis.fr?subject=?"
+                },
+                "errors": [
+                    "Error: FACEBOOK_PAGE_URL_NO_DETECTED\n    at collectFacebookUrlAndProcess (/home/cimeteret/Public/rescraper/tripadvisor/details.js:72:19)\n    at process._tickCallback (internal/process/next_tick.js:68:"
+                ]
+            },
+            "email": "contact@le-pastis.fr?subject=?"
         }
-    ],
-    "totalEmails": 28,
-    "tripadvisorListPages": {
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa150-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa180-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa90-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa120-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa210-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa240-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa270-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa300-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa330-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa360-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa390-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa420-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa450-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false,
-        "https://www.tripadvisor.fr/Restaurants-g187147-oa480-Paris_Ile_de_France.html#EATERY_LIST_CONTENTS": false
-    }
+    ]
 }

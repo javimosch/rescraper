@@ -1,3 +1,5 @@
+const waitQuerySelectorAll = require('../utils/waitQuerySelectorAll')
+
 module.exports = {
     scrapeItem
 }
@@ -11,21 +13,23 @@ async function scrapeItem(url, item = {}, options = {}) {
     const puppeteer = require('puppeteer')
     const browser = await puppeteer.launch(require('../config').puppeteer)
     const page = await browser.newPage()
-        //if (options.debug) console.log('DETAILS goto url', url)
+        // if (options.debug) console.log('DETAILS goto url', url)
     await page.goto(url)
     const bodyHandle = await page.$('body')
     html = await page.evaluate(body => body.innerHTML, bodyHandle)
-    await browser.close()
     const cheerio = require('cheerio')
     const $ = cheerio.load(html)
     try {
-        let email = $('.ui_icon.email')
-            .parent()
-            .parent()
-            .find('a')
-            .attr('href')
-            .split('mailto:')
-            .join('')
+        let link = $('a')
+            .toArray()
+            .find(a => ($(a).attr('href') || '').indexOf('mailto') !== -1)
+        let email = ''
+        if (link) {
+            email = $(link)
+                .attr('href')
+                .split('mailto:')
+                .join('')
+        }
         if (!email) {
             throw new Error('TRIPADVISOR_NO_EMAIL_DETECTED')
         } else {
@@ -47,8 +51,15 @@ async function scrapeItem(url, item = {}, options = {}) {
         // unable to get email from details view
         // 0pU_https://www.facebook.com/lesloupsdelabutte/_DcP
         var atob = require('atob')
-        var links = $('.ui_link')
-            .toArray()
+
+        var linksRes = await waitQuerySelectorAll('.ui_link', page, bodyHandle, {
+            timeout: 15000
+        })
+
+        var links = linksRes.items
+        let $ = linksRes.$
+
+        links = links
             .map(link => {
                 let encoded = $(link).attr('data-encoded-url')
                 return (!!encoded && atob(encoded)) || null
@@ -72,7 +83,9 @@ async function scrapeItem(url, item = {}, options = {}) {
             url = url.split('//').join('/')
             url = 'https://' + url
                 // console.log('URL', url)
-            return await require('../facebook/page_about').scrapeItem(url, item)
+            return await require('../facebook/page_about').scrapeItem(url, item, {
+                page
+            })
         }
     }
 }

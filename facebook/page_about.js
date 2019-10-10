@@ -5,7 +5,7 @@ module.exports = {
     scrapeItem
 }
 
-async function scrapeItem(url, item) {
+async function scrapeItem(url, item, options = {}) {
     item.metadata = item.metadata || {}
     item.metadata.facebook = item.metadata.facebook || {}
     item.metadata.errors = item.metadata.errors || []
@@ -18,10 +18,14 @@ async function scrapeItem(url, item) {
         let { links, $ } = await waitEmailElements(page, bodyHandle, {
             timeout: 10000
         })
-        let email = $(links[0]).attr('href').split('mailto:').join('')
-        if (!!email) {
-            item.email = email;
+        let email = $(links[0])
+            .attr('href')
+            .split('mailto:')
+            .join('')
+        if (email) {
+            item.email = email
             item.metadata.facebook.email = email
+            console.log('EMAIL FROM FACEBOOK!', item.email)
         }
     } catch (err) {
         item.metadata.errors.push((err.stack || err.message).substring(0, 100))
@@ -39,11 +43,13 @@ async function waitEmailElements(page, bodyHandle, options = {}) {
             let links = $('a')
                 .toArray()
                 .filter(link => {
-                    return (
+                    return
+                    $(link)
+                        .attr('href')
+                        .indexOf('@fb.com') == -1 &&
                         $(link)
                         .attr('href')
                         .indexOf('mailto') !== -1
-                    )
                 })
             if (links.length !== 0) {
                 resolve({ links, $ })
@@ -55,7 +61,6 @@ async function waitEmailElements(page, bodyHandle, options = {}) {
                 if (Date.now() - startDate > (options.timeout || 20000)) {
                     reject(new Error('TIMEOUT'))
                 } else {
-
                     setTimeout(() => check(), 1000)
                 }
             }
